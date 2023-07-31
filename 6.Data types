@@ -6,7 +6,7 @@ character ---char
 boolean --- boolean 
 
 c) why do we need different type of integer ?
-= there are range for each type. for int --4 bytes ,long --8 bytes, short --2bytes byte --1byte
+= there are range for each type. for int --4 bytes ,long --8 bytes, short --2bytes byte --1byte boolean --1bit
 
 d) How to create variable of different data type?
 = int a=10; byte b=4
@@ -49,5 +49,5 @@ Range and way to declare different data type variable
         float f=5.5f;//4 bytes -- 32 bytes -- 1.4e-45 to 3.4028235e+38
         double d=5.5;//8 bytes -- 64 bytes -- 4.9e-324 to 1.7976931348623157e+308
         char c='a';//2 bytes -- 16 bytes -- 0 to 65535
-        boolean check=true; //value is either true or false 
+        boolean check=true; //1bit --value is either true or false 
         ASCII - American Standard Code for Information Interchange
