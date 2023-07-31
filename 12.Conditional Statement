@@ -1,0 +1,77 @@
+#1
+-- conditional statement is a statement that can be true or false.
+-- suppose if ask student is pass. (answer yes or no)
+-- this type of statement of statement is conditional statement.
+
+#2
+In this part we are only discussing about if-else and 
+in next lecture we are discussing if-else-if ladder, ternary operator and switch statement.
+
+#3
+syntax of if-else
+
+-- condition is either true or false after evaluation 
+-- remember like c and c++, we cannot use number directly as condition of if-else
+- if(5) -- not allowed in java 
+-- you get Type mismatch: cannot convert from int to boolean
+if(condition) 
+{
+    //code 
+    //either this part execute 
+}
+
+else
+{
+    //code
+    //or this part execute
+}
+
+#4
+example:
+if want to check a given number is even or odd then;
+int num=13;
+if(num%2==0)
+System.out.println("Even"); //here we not use  braces for single statement {}
+
+else
+System.out.println("Odd");  // here we not use braces {}
+
+Note: for single statement braces is not required  but for multiple statement it is required.
+
+
+#1
+-- if-else-if ladder is a series of if, else if or else statements that are executed based on the boolean condition.
+-- if else if ladder is used to test multiple conditions
+
+#2
+syntax of if-else-if ladder
+
+if(condition1)
+{
+    //block of code  
+}
+else if(condition2){
+    //block of code
+}
+else if(condition3)
+{
+    //block of code
+}
+else{
+    //block of code
+}
+
+Note: only one block is executed from all. If all condition is false then else part executed
+
+#3
+-- check greatest number from three number.
+      int x=8;
+      int y=7;
+      int z=6; 
+        if(x y && x z)
+        System.out.println("x is greater");
+        else if(y z) 
+        System.out.println("y is greater");
+        else
+        System.out.println("z is greater");  
+    
