@@ -36,3 +36,10 @@ JRE:-
  JRE - Java Runtime Environment
 - For development purposes, you need to install JDK (Java Development Kit) which consists of JRE and JVM.
 - Java is WORA that is Write Once Run Anywhere provided that JVM and JDK installed.
+
+#6
+Two steps to compile any code:
+1. Compile the code using the javac command.
+ javac filename
+2. Run the code using the java command.
+ java classname
