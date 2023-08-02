@@ -53,6 +53,10 @@ class oops
             System.out.println(stud[i].name + " " +stud[i].marks);
             
         }
+------------------------
+        for (student s : stud) {
+            System.out.println(s.name+" : "+s.marks);
+        }
 
 
     }
