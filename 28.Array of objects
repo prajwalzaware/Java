@@ -1,0 +1,59 @@
+In this lecture we are discussing about array of objects:
+-- If we create array by default value assign for each type of array
+-- The new operator automatically initializes the elements of an array to their default value, which, for example, is zero for all numeric types
+and null for all reference types.
+-- why we should we know length of array using length property?
+-- There is array out of bound exception.
+
+How to create array of object and what does it means?
+-- just like to create array for int, float, char we can create array of object 
+-- when we we create array of object it means we create an array which can hold the reference of object.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class student
+{
+    int rollno;
+    String name;
+    int marks;
+}
+
+class oops
+{
+    public static void main(String[] args) {
+        student st1=new student();
+
+        st1.rollno=101;
+        st1.name="prajwal";
+        st1.marks=88;
+
+
+        student st2=new student();
+
+        st2.rollno=105;
+        st2.name="rahul";
+        st2.marks=85;
+
+
+        student st3=new student();
+
+        st3.rollno=103;
+        st3.name="rohit";
+        st3.marks=84;
+
+
+        student stud[]=new student[3];
+        stud[0]=st1;
+        stud[1]=st2;
+        stud[2]=st3;
+
+        
+        for(int i=0; i<stud.length; i++)
+        {
+            System.out.println(stud[i].name + " " +stud[i].marks);
+            
+        }
+
+
+    }
+}
