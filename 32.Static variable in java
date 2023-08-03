@@ -73,3 +73,38 @@ System.out.println(obj2.inB); // output: 100 no change in obj2
 Remember one thing:
 i)we can use static property, member inside non static block or method without object creation.
 ii) But we cannot use non static property or method inside static block or method without object creation.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class mobile
+{
+    String brand;
+    int price;
+    static String name;
+    
+    public void show()
+    {
+        System.out.println(brand+" : "+price+" : "+name);
+    }
+
+}
+public class oops {
+public static void main(String[] args) {
+    
+    mobile m1=new mobile();
+    m1.brand="apple";
+    m1.price=12000;
+    mobile.name="Smartphone";
+    
+
+    mobile m2=new mobile();
+    m2.brand="samsung";
+    m2.price=15200;
+
+    m1.show();
+    m2.show();
+    
+
+
+}
+}
