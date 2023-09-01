@@ -5,6 +5,8 @@
 
 #1
 In java we are managing our managing our memory using two data structure stack and heap.
+Stack provides static memory allocation,
+i.e., it is used to store the temporary variables. Heap provides dynamic memory allocation. 
 two categories to store data in memory:
 1) Stack data structure
 2) heap data structure
